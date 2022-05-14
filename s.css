@@ -1,0 +1,89 @@
+@keyframes hvr {
+    0%{
+        background: url(levon-vardanyan-_EpaiWp5yC8-unsplash.jpg);
+        transform: scale(1,1);
+    }
+    50%{
+        background-color: red;
+    }
+    100%{
+        transform: scale(1.4,1.2);
+background: cyan;
+}
+}
+.main_container{
+    width: 90vmin;
+    height: 90vmin;
+    background-color:blueviolet;
+    border: 3px solid black;
+    box-shadow: 0px 0px 50px 10px red;
+}
+body{
+    background: url(levon-vardanyan-_EpaiWp5yC8-unsplash.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+*{
+    margin: 0;padding: 0;
+}
+.heading{
+    height: 15vmin;
+    background-color:gray;
+    border: 3px solid blue;
+}
+.cardstore{
+    height: 75vmin;
+    width: 90vmin;
+    background: url(/elisa-ph-rQqZ9q14sFY-unsplash.jpg);
+    background-size: contain;
+    box-sizing: border-box;
+    border: 3px solid green;
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    
+    
+}
+.cards{
+    width: 14vmin;
+    color: red;
+    text-align: center;
+    line-height: 29vmin;
+    box-shadow: 0px 0px 50px 5px yellow;
+    border-radius: 15px;
+    margin: 1.2vmin;
+    height: 30vmin;
+    background: url(https://images.unsplash.com/photo-1640177155742-835de7b2a9a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyM3x8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60);
+    background-size: contain;
+    border: 3px solid red;
+}
+.cards:hover{
+    animation: hvr 1s;
+
+}
+.left{
+    margin-left: 2vmin;
+}
+
+.diamond{
+    animation: dmd 1s;
+    font-size: 0px;
+}
+@keyframes dmd {
+    0%{background: black;
+        background-size: contain;}
+    75%{
+        background: url("/doz-gabrial-D0fxuvStGD0-unsplash.jpg");
+        background-size: cover;
+        transform: scale(1.4,1.2) rotateY(360deg);
+    }
+}
+p{
+    color: wheat;
+    text-align: center;
+    line-height: 7vmin;
+    font-size: 3vmin;
+}
