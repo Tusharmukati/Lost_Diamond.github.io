@@ -37,7 +37,7 @@ body{
 .cardstore{
     height: 75vmin;
     width: 90vmin;
-    background: url(/elisa-ph-rQqZ9q14sFY-unsplash.jpg);
+    background: url(elisa-ph-rQqZ9q14sFY-unsplash.jpg);
     background-size: contain;
     box-sizing: border-box;
     border: 3px solid green;
@@ -76,7 +76,7 @@ body{
     0%{background: black;
         background-size: contain;}
     75%{
-        background: url("/doz-gabrial-D0fxuvStGD0-unsplash.jpg");
+        background: url("doz-gabrial-D0fxuvStGD0-unsplash.jpg");
         background-size: cover;
         transform: scale(1.4,1.2) rotateY(360deg);
     }
